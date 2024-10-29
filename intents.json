@@ -1,0 +1,101 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "wassup", "what's up?", "Hi Anees", "hey Anees", "hello Anees"],
+          "responses": ["Hey there! I'm Anees, your personal book buddy. How can I assist you today?", "Hello! Anees here, ready to help you on your author journey!"],
+          "context": [""]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "ttyl"],
+          "responses": ["Catch you later!", "Have a great day and happy writing!", "See ya! Swing by anytime!"],
+          "context": [""]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "thnks"],
+          "responses": ["Anytime, happy to help!", "Glad I could assist! Let's keep the creativity flowing!", "You're welcome! Keep up the awesome work!"],
+          "context": [""]
+      },
+      {
+          "tag": "noanswer",
+          "patterns": [],
+          "responses": ["Hmm, I'm not sure I got that. Could you give me a bit more info?", "Sorry, could you rephrase that? I'm here to help!"],
+          "context": [""]
+      },
+      {
+          "tag": "options",
+          "patterns": ["How could you help me?", "What can you do?", "What help can you provide?", "How can you be helpful?", "What support is offered", "what is your use"],
+          "responses": ["I'm here to give you tips on writing, publishing, and promoting your book, plus insights on contracts, pricing, and even designing a cover! Let me know what you need!"],
+          "context": [""]
+      },
+      {
+          "tag": "writing_tips",
+          "patterns": ["writing tips","Do you have tips for writing?", "How to improve my writing?", "What are some writing tips?", "Advice on writing"],
+          "responses": ["Here's a tip: Keep it clear and captivating. Show, don't just tell, and try to write every day, even if it's just a little. Practice makes your writing shine!"],
+          "context": [""]
+      },
+      {
+          "tag": "self_publishing",
+          "patterns": ["self-publishing", "How can I self-publish?", "Self-publishing options", "How to publish my book myself?", "Independent publishing"],
+          "responses": ["Self-publishing is awesome if you want full control! Check out Amazon Kindle Direct Publishing, IngramSpark, or Lulu. You can get your book out there while calling the shots!"],
+          "context": [""]
+      },
+      {
+          "tag": "publishing_house_proposal",
+          "patterns": ["publishing house proposal", "How do I propose my manuscript to a publishing house?", "How to propose my book to a publisher?", "What is the process to submit my book?", "Submitting manuscript to a publisher"],
+          "responses": ["To catch a publisher's eye, you'll need a query letter, a strong synopsis, and sample chapters. Research publishers who publish your genre for a better match!"],
+          "context": [""]
+      },
+      {
+        "tag": "publishing_houses_saudi",
+        "patterns": ["open publishing houses in Saudi Arabia?", "What are the open publishing houses in Saudi Arabia?", "Saudi Arabia publishing houses"],
+        "responses": ["Here are some publishing houses in Saudi Arabia:\n1. **Dar Al Maiman Publishing** - Located in Riyadh [Website](https://daralmaiman.com)\n2. **Al Kharashi Publishing** - Located in Riyadh [Website](https://alkharashipublishing.com)\n3. **Obeikan Publishing** - Located in Riyadh [Website](https://obeikanpublishing.com)\n4. **Jarir Bookstore Publishing** - Located in Riyadh [Website](https://www.jarir.com)\n5. **Al Rushd Bookstore** - Located in Jeddah [Website](https://alrushd.sa)\n6. **King Fahd National Library Publishing** - Located in Riyadh, specializing in academic and historical publications [Website](https://www.kfnl.gov.sa)\n7. **Hamad Al Jasir Foundation for Publishing** - Located in Riyadh, known for cultural and literary works [Website](https://hamadaljasir.sa)\n8. **Arab House for Publishing and Distribution** - Located in Dammam, focusing on various genres [Website](https://arabhousepublishing.com)"
+        ],
+        "context": [""]
+    },    
+      {
+          "tag": "promote_book",
+          "patterns": ["promote book", "How do I promote my book?", "What are the ways to market my book?", "How can I advertise my book?", "Tips for book promotion"],
+          "responses": ["Promote like a pro! Social media is key, along with connecting with bloggers, doing book signings, and engaging with readers. Try book tours and even virtual events to spread the word!"],
+          "context": [""]
+      },
+      {
+          "tag": "editing_services",
+          "patterns": ["editing services", "Where can I get editing services?", "How do I find an editor for my book?", "Can you suggest book editors?", "Hiring an editor for my manuscript"],
+          "responses": ["Editors can make your book shine! Look for freelancers on Reedsy or Fiverr. Check for those with experience in your genre, or ask your publishing house if they offer editing too!"],
+          "context": [""]
+      },
+      {
+          "tag": "book_cover_design",
+          "patterns": ["book cover design", "Do I need a book cover designer?", "How to design a book cover?", "Should I hire a cover designer?", "Book cover design tips"],
+          "responses": ["A cover can be a game-changer! Use sites like 99designs, Canva, or hire a freelancer. Your cover should pop and reflect the vibe of your book!"],
+          "context": [""]
+      },
+      {
+          "tag": "book_pricing",
+          "patterns": ["book pricing", "How do I price my book?", "How to set the price for my book?", "What is the best way to price my book?", "Book pricing strategy"],
+          "responses": ["Pricing depends on length, genre, and what others charge. Keep it competitive but fair. If you self-publish, you can adjust over time!"],
+          "context": [""]
+      },
+      {
+          "tag": "book_trailer",
+          "patterns": ["book trailer", "Do I need a book trailer?", "How to make a book trailer?", "Should I create a trailer for my book?", "Tips for making a book trailer"],
+          "responses": ["A book trailer is a cool promo tool, especially for social media. Make it short, cinematic, and intriguing. It's like a movie preview but for your book!"],
+          "context": [""]
+      },
+      {
+          "tag": "copyright_registration",
+          "patterns": ["copyright registration", "How do I copyright my book?", "What is copyright registration?", "How can I protect my book?", "Copyrighting my manuscript"],
+          "responses": ["Copyrighting is automatic when you write your book, but registering offers extra legal protection. Register with the copyright office to secure your rights!"],
+          "context": [""]
+      },
+      {
+          "tag": "publishing_timeline",
+          "patterns": ["publishing timeline", "How long does publishing take?", "What is the timeline for book publishing?", "How long to publish a book?", "Book publishing duration"],
+          "responses": ["Traditional publishing can take months to years, but self-publishing is faster—sometimes just weeks once everything’s set. It all depends on editing and prep!"],
+          "context": [""]
+      }
+  ]
+}
