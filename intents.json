@@ -33,7 +33,7 @@
       {
           "tag": "writing_tips",
           "patterns": ["writing tips","Do you have tips for writing?", "How to improve my writing?", "What are some writing tips?", "Advice on writing"],
-          "responses": ["Here's a tip: Keep it clear and captivating. Show, don't just tell, and try to write every day, even if it's just a little. Practice makes your writing shine!"],
+          "responses": ["Here's a tip: Keep it clear and captivating. Show, don't just tell, and try to write every day, even if it's just a little. Practice makes your writing shine!\n Here is a reference you can use: https://surl.li/kjwmzc"],
           "context": [""]
       },
       {
@@ -51,10 +51,10 @@
       {
         "tag": "publishing_houses_saudi",
         "patterns": ["open publishing houses in Saudi Arabia?", "What are the open publishing houses in Saudi Arabia?", "Saudi Arabia publishing houses"],
-        "responses": ["Here are some publishing houses in Saudi Arabia:\n1. **Dar Al Maiman Publishing** - Located in Riyadh [Website](https://daralmaiman.com)\n2. **Al Kharashi Publishing** - Located in Riyadh [Website](https://alkharashipublishing.com)\n3. **Obeikan Publishing** - Located in Riyadh [Website](https://obeikanpublishing.com)\n4. **Jarir Bookstore Publishing** - Located in Riyadh [Website](https://www.jarir.com)\n5. **Al Rushd Bookstore** - Located in Jeddah [Website](https://alrushd.sa)\n6. **King Fahd National Library Publishing** - Located in Riyadh, specializing in academic and historical publications [Website](https://www.kfnl.gov.sa)\n7. **Hamad Al Jasir Foundation for Publishing** - Located in Riyadh, known for cultural and literary works [Website](https://hamadaljasir.sa)\n8. **Arab House for Publishing and Distribution** - Located in Dammam, focusing on various genres [Website](https://arabhousepublishing.com)"
+        "responses": ["Here are some publishing houses in Saudi Arabia:\n1. **Dar Al Maiman Publishing** - Located in Riyadh [Website](https://daralmaiman.com)\n2. **Obeikan Publishing** - Located in Riyadh [Website](https://www.obeikan.com.sa/obeikan-publishing)\n3. **Jarir Bookstore Publishing** - Located in Riyadh [Website](https://www.jarir.com)\n4. **Al Rushd Bookstore** - Located in Jeddah [Website](https://alrushd.sa)\n5. **King Fahd National Library Publishing** - Located in Riyadh, specializing in academic and historical publications [Website](https://www.kfnl.gov.sa)"
         ],
         "context": [""]
-    },    
+    },
       {
           "tag": "promote_book",
           "patterns": ["promote book", "How do I promote my book?", "What are the ways to market my book?", "How can I advertise my book?", "Tips for book promotion"],
@@ -96,6 +96,29 @@
           "patterns": ["publishing timeline", "How long does publishing take?", "What is the timeline for book publishing?", "How long to publish a book?", "Book publishing duration"],
           "responses": ["Traditional publishing can take months to years, but self-publishing is faster—sometimes just weeks once everything’s set. It all depends on editing and prep!"],
           "context": [""]
-      }
+      },
+      {
+        "tag": "publication_license_issuance",
+        "patterns": ["publishing license issuance", "How to get a publishing house license?", "What is the process for obtaining a publishing license?", "How to issue a publishing license?", "How to apply for a publishing house license?"],
+        "responses": [
+            "To issue a publishing house license from here https://surl.li/hytfou, follow these steps through the Ministry's electronic services:\n\n1. Enter the media licensing system.\n2. Choose the service 'Issue a New License.'\n3. Select the 'Ministry of Media - Media Licensing System' option, and review the conditions for granting a media license to individual institutions and companies.\n4. Verify the owner's identity, date of birth, and select gender. Press 'Verify' and complete the application.\n5. Enter the address data and agree to the acknowledgment."
+        ],
+        "context": [""]
+      },
+      {
+        "tag": "saudi_authors_pavilion_registration",
+        "patterns": [
+          "Registration of Saudi Authors Pavilion", 
+          "How to register for Saudi Authors Pavilion?", 
+          "What is the process to register in Saudi Authors Pavilion?", 
+          "How can Saudi authors participate in the Riyadh Book Fair?", 
+          "How to display and sell books in Saudi Authors Pavilion?"
+        ],
+        "responses": [
+          "The Registration of Saudi Authors Pavilion is an e-service provided by the Ministry of Media, enabling Saudi authors who do not own publishing houses to register and display their books at the Riyadh International Exhibition. Authors can present and market their books, set prices, and sell them. Here are the steps:\n\n1. Register in the Saudi Authors Pavilion.\n2. Approve the authorization of the Ministry to sell the books.\n3. Fill in the required data.\n4. The applicant will be notified of receipt of the request.\n5. From the control panel, you can export and view the data of the applicant who registered in Saudi Authors Pavilion.\n6. The applicant will be informed about the approval of the request and receive their books at the Book Fair. here the link https://surl.li/zesvqq"
+        ],
+        "context": [""]
+      }      
+      
   ]
 }
